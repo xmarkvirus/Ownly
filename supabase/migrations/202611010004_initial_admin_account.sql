@@ -1,0 +1,3 @@
+-- Admin assignment is intentionally handled outside migrations.
+-- After creating and verifying the first account, grant its role from a
+-- trusted SQL session using the account's user UUID. See README.md.

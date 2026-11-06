@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main className="wrap" style={{padding:'120px 0',textAlign:'center'}}><div className="eyebrow">404</div><h1>This page isn’t available</h1><p className="muted">The listing may have been removed or the address may be incorrect.</p><Link href="/explore" className="btn">Explore listings</Link></main>}
